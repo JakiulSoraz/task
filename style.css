@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+    
+.header{
+    
+    overflow: hidden;
+    background-image: url("header-bg.png");
+    background-size: 100% 400px;
+    background-repeat: no-repeat;   
+   
+}
+.hh2{
+    margin-bottom: 0;
+}
+.container{
+    padding: 0 10%;
+}
+.leftside{
+    width: 40%;
+    height: 400px;
+    float: left;
+    display: block;
+    padding-right: 10%;
+
+}
+header div h2{
+    margin-top: 80px;
+}
+.link{
+    text-decoration: none;
+    background-color: palevioletred;
+    background-image: linear-gradient(45deg, hotpink, rgb(255, 71, 148));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: darkgray;
+    font-weight: 700;
+
+}
+.firstheader{
+    color: hotpink;
+    font-size: 50px;
+}
+.rightside{
+    width: 40%;
+    height: 400px;
+    float: left;
+    
+}
+.rightside .image{
+    width: 100%;
+}
+.middle{
+    overflow: hidden;
+    background-image: url("biography-bg.png");
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+}
+.big{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+.pc{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+}
+.pc:last-child{
+    padding-left: 0;
+}
+.last{
+    text-align: center;
+    background-image: url("footer-bg.png");
+    height: 300px;
+
+}
+.end{
+    text-align: center;
+}
+.footer-one{
+    display: inline-block;
+    text-decoration: none;
+    background-color: palevioletred;
+    background-image: linear-gradient(45deg, hotpink, rgb(255, 71, 148));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: darkgray;
+    font-weight: 700;
+
+
+}
+.footer-one a{
+    text-decoration: none;
+}
